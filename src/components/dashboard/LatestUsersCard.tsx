@@ -31,7 +31,7 @@ const users = [
         bio: "UI/UX Designer",
     },
     {
-        name: "Janet Smith",
+        name: "Janet Muema",
         email: "janet@example.com",
         phone: "+254711111111",
         bio: "Backend Engineer",

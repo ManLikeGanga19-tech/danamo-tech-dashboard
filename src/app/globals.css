@@ -112,6 +112,28 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+:root {
+  --color-chrome: #6366f1;
+  --color-safari: #22d3ee;
+  --color-firefox: #f97316;
+  --color-edge: #10b981;
+  --color-other: #a78bfa;
+
+  --chart-1: var(--color-chrome);
+  --chart-2: var(--color-safari);
+  --chart-3: var(--color-firefox);
+  --chart-4: var(--color-edge);
+  --chart-5: var(--color-other);
+}
+
+.dark {
+  --color-chrome: #818cf8;
+  --color-safari: #67e8f9;
+  --color-firefox: #fb923c;
+  --color-edge: #34d399;
+  --color-other: #c4b5fd;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

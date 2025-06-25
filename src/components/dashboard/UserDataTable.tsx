@@ -1,11 +1,7 @@
 "use client";
 
 import * as React from "react";
-import {
-    Menubar,
-    MenubarMenu,
-    MenubarTrigger,
-} from "@/components/ui/menubar";
+
 import {
     ColumnDef,
     ColumnFiltersState,
@@ -20,7 +16,6 @@ import {
 } from "@tanstack/react-table";
 import {
     ArrowUpDown,
-    ChevronDown,
     MoreHorizontal,
     Plus,
 } from "lucide-react";
@@ -29,7 +24,6 @@ import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
     DropdownMenu,
-    DropdownMenuCheckboxItem,
     DropdownMenuContent,
     DropdownMenuItem,
     DropdownMenuLabel,

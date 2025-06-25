@@ -1,9 +1,10 @@
-import React from 'react'
+import { UserDataTable } from "@/components/dashboard/UserDataTable";
 
-function page() {
+
+export default function UsersPage() {
   return (
-    <div>users page</div>
-  )
+    <div className="p-6">
+      <UserDataTable  />
+    </div>
+  );
 }
-
-export default page
